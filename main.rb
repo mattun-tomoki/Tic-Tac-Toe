@@ -1,3 +1,9 @@
+  
+  def main
+    bord
+    get_method  
+  end  
+
   def bord
     3.times do |i|
       3.times do |j|
@@ -6,4 +12,15 @@
       print("\n------------\n");
     end
   end
-bord
+
+  def get_method
+
+  end
+
+  def get_loop
+    9.timets{
+      get_method
+    }
+  end
+  
+  main
