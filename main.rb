@@ -1,8 +1,4 @@
-  
-  def main
-    bord
-    get_method  
-  end  
+# Tic-Tac-Toe program
 
   def bord
     3.times do |i|
@@ -14,13 +10,20 @@
   end
 
   def get_method
-
+    p 'enter number from 1 to 9'
+    number = gets.to_i
+    print("#{number}\n");
   end
 
   def get_loop
-    9.timets{
+    9.times{
       get_method
     }
   end
   
+  def main
+    bord
+    get_loop
+  end
+
   main
